@@ -1,5 +1,5 @@
 body {
-    background-image: url("/img/kirsi-farm-gH7-u4dlFcc-unsplash.jpg");
+    background-image: url("/img/zdenek-machacek-6bAuGvNISq4-unsplash.jpg");
   }
   
 ul {
@@ -22,12 +22,12 @@ ul {
     text-decoration: none;
   }
   
-  li a:hover:not(.active) {
-    background-color: #111;
-  }
+  /* li a:hover:not(.active) { */
+    /* background-color: #111; */
+  /* } */
   
   .active {
-    background-color: #4CAF50;
+    background-color: #80c9bf;
   }
   /* Style inputs with type="text", select elements and textareas */
 input[type=text], select, textarea {
@@ -69,7 +69,10 @@ input[type=text], select, textarea {
         border: 15px solid #19926896;
         padding: 50px;
         margin: 20px;
+        margin-right: auto;
+        margin-left: auto;
         text-align: center;
+        font-size: large;
       }
   
   iframe:focus {
@@ -81,10 +84,32 @@ input[type=text], select, textarea {
   }
   footer {
     text-align: center;
-    padding: 3px;
-    background-color: DarkSalmon;
-    color: white;
+    padding: 20px;
+    background-color: #cfd2d6;
+    color: #020202;
+  }
+  .column {
+    float: left;
+    width: 25%;
   }
   
-
+  .column {
+    float: left;
+    width: 33.33%;
+  }
+  
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  .store-img{
+    float: center;
+  }
+  .image-container{
+    margin-left: auto;
+    margin-right: auto;
+    width: 300px;
+  }
   
