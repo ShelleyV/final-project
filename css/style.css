@@ -1,5 +1,7 @@
 body {
-    background-image: url("/img/zdenek-machacek-6bAuGvNISq4-unsplash.jpg");
+    /* background-image: url("/img/zdenek-machacek-6bAuGvNISq4-unsplash.jpg"); */
+    background: rgb(207,239,240);
+    background: linear-gradient(0deg, rgba(207,239,240,1) 0%, rgba(214,221,233,0.10828081232492992) 83%);
   }
   
 ul {
@@ -85,7 +87,7 @@ input[type=text], select, textarea {
   footer {
     text-align: center;
     padding: 20px;
-    background-color: #cfd2d6;
+    background-color: #95dac3
     color: #020202;
   }
   .column {
@@ -110,13 +112,35 @@ input[type=text], select, textarea {
   .image-container{
     margin-left: auto;
     margin-right: auto;
-    width: 300px;
+    width: 220px;
   }
   .img-container{
     margin-left: auto;
     margin-right: auto;
-    width: 300px;
+    width: 230px;
   }
+  .about-me{
+    margin-left: auto;
+    margin-right: auto;
+    width: 500px;
+    font-family: Georgia, 'Times New Roman', Times, serif ;
+    font-size: 20px;
   }
-
+  .intro-img{
+    margin-left: auto;
+    margin-right: auto;
+    width: 230px;
+  }
+  .intro{
+    background-color: lightgrey;
+    width: 250px;
+    height: 300;
+    border: 15px solid #19926896;
+    padding: 50px;
+    margin: 20px;
+    margin-right: auto;
+    margin-left: auto;
+    text-align: center;
+    font-size: large;
+  }
   
