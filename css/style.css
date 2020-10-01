@@ -22,9 +22,9 @@ ul {
     text-decoration: none;
   }
   
-  /* li a:hover:not(.active) { */
-    /* background-color: #111; */
-  /* } */
+  li a:hover:not(.active) { 
+     background-color: #111; 
+  } 
   
   .active {
     background-color: #80c9bf;
@@ -112,4 +112,11 @@ input[type=text], select, textarea {
     margin-right: auto;
     width: 300px;
   }
+  .img-container{
+    margin-left: auto;
+    margin-right: auto;
+    width: 300px;
+  }
+  }
+
   
