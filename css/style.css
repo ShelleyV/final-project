@@ -1,7 +1,9 @@
 body {
-    /* background-image: url("/img/zdenek-machacek-6bAuGvNISq4-unsplash.jpg"); */
-    background: rgb(207,239,240);
-    background: linear-gradient(0deg, rgba(207,239,240,1) 0%, rgba(214,221,233,0.10828081232492992) 83%);
+    background-image: url("/Users/shelleyvorenkamp/Desktop/rd/img/chua-bing-quan-Sg7eWHKrxrA-unsplash.jpg");
+    background-size: cover;
+    background-position: center;
+    /* background: rgb(207,239,240); */
+    /* background: linear-gradient(0deg, rgba(207,239,240,1) 0%, rgba(214,221,233,0.10828081232492992) 83%); */
   }
   
 ul {
@@ -9,7 +11,7 @@ ul {
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: #333;
+    background-color:rgba(41, 85, 5, 0.698);
   }
   
   li {
@@ -29,7 +31,7 @@ ul {
   } 
   
   .active {
-    background-color: #80c9bf;
+    background-color: #020500;
   }
   /* Style inputs with type="text", select elements and textareas */
 input[type=text], select, textarea {
@@ -38,7 +40,7 @@ input[type=text], select, textarea {
     border: 1px solid #ccc; /* Gray border */
     border-radius: 4px; /* Rounded borders */
     box-sizing: border-box; /* Make sure that padding and width stays in place */
-    margin-top: 6px; /* Add a top margin */
+    margin-top: 20px; /* Add a top margin */
     margin-bottom: 16px; /* Bottom margin */
     resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
   }
@@ -68,9 +70,9 @@ input[type=text], select, textarea {
         background-color: lightgrey;
         width: 250px;
         height: 300;
-        border: 15px solid #19926896;
+        border: 15px solid rgba(41, 85, 5, 0.698);
         padding: 50px;
-        margin: 20px;
+        margin: 100px;
         margin-right: auto;
         margin-left: auto;
         text-align: center;
@@ -83,12 +85,15 @@ input[type=text], select, textarea {
   
   iframe[seamless] {
     display: block;
+    margin-left: auto;
+    margin-right: auto;
   }
   footer {
     text-align: center;
     padding: 20px;
-    background-color: #95dac3
+    background-color:rgba(41, 85, 5, 0.698);
     color: #020202;
+    list-style: none;
   }
   .column {
     float: left;
@@ -112,12 +117,14 @@ input[type=text], select, textarea {
   .image-container{
     margin-left: auto;
     margin-right: auto;
-    width: 220px;
+    /* width: 220px; */
+    display: block;
   }
   .img-container{
     margin-left: auto;
     margin-right: auto;
     width: 230px;
+    
   }
   .about-me{
     margin-left: auto;
@@ -125,6 +132,8 @@ input[type=text], select, textarea {
     width: 500px;
     font-family: Georgia, 'Times New Roman', Times, serif ;
     font-size: 20px;
+    background-color: #80817eec;
+    padding: 10px;
   }
   .intro-img{
     margin-left: auto;
@@ -135,7 +144,7 @@ input[type=text], select, textarea {
     background-color: lightgrey;
     width: 250px;
     height: 300;
-    border: 15px solid #19926896;
+    border: 15px solid rgba(41, 85, 5, 0.698);
     padding: 50px;
     margin: 20px;
     margin-right: auto;
@@ -143,4 +152,24 @@ input[type=text], select, textarea {
     text-align: center;
     font-size: large;
   }
+  .footer-list{
+    margin-bottom: 50px;
+  }
   
+.wrapper {
+  /* background-color: tomato; */
+  /* width: 900px; */
+  height: 400px;
+  margin: auto;
+}
+.custom-float {
+  float: left;
+  width: 50%;
+  /* background-color: teal; */
+  text-align: center;
+}
+.image-size {
+  width: 100%;
+  max-width: 400px;
+  height: 400px;
+}
